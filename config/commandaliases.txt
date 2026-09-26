@@ -1,0 +1,4 @@
+r | reload
+s | gamemode survival
+c | gamemode creative
+h | ct hand vanilla
