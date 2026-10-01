@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "botania:gray_mystical_flower_patch",
+        "placement": []
+      },
+      {
+        "feature": "botania:black_mystical_flower_patch",
+        "placement": []
+      }
+    ]
+  }
+}

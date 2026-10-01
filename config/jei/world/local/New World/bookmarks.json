@@ -1,4 +1,19 @@
 [
   {"version":1},
-  {"type":"recipe","value":"minecraft:crafting#botania:alchemy_catalyst#item_stack\u0026botania:alchemy_catalyst"}
+  {"type":"recipe","value":"minecraft:crafting#botania:alchemy_catalyst#item_stack\u0026botania:alchemy_catalyst"},
+  {"type":"recipe","value":"minecraft:crafting#minecraft:jei.suspicious.stew.block.botania.white_mystical_flower#item_stack\u0026minecraft:suspicious_stew:[1.80]"},
+  {"type":"recipe","value":"minecraft:crafting#botania:conjuration_catalyst#item_stack\u0026botania:conjuration_catalyst"},
+  {"type":"recipe","value":"botania:mana_pool#botania:mana_infusion/calcite_to_deepslate#item_stack\u0026minecraft:deepslate"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:brew_vial\",tag:{brewKey:\"botania:water_breathing\"}}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"minecraft:moss_block\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"minecraft:muddy_mangrove_roots\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"minecraft:cornflower\"}"},
+  {"type":"recipe","value":"botania:runic_altar#botania:runic_altar/water#item_stack\u0026botania:rune_water"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:manasteel_ingot\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:mana_powder\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"minecraft:fishing_rod\",tag:{Damage:0}}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"minecraft:bone_meal\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:purple_mystical_flower\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:red_mushroom\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:red_petal\"}"}
 ]

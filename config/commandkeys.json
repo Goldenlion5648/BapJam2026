@@ -40,6 +40,130 @@
               "delayTicks": 0
             }
           ]
+        },
+        {
+          "version": 7,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": true,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "activationType": "HOLD",
+          "spaceTicks": 0,
+          "maxRepeats": 0,
+          "name": "",
+          "mcActivatorKey": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.c",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "string": "/ct hand vanilla",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 7,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": true,
+          "conflictStrategy": "VETO",
+          "sendMode": "SEND",
+          "activationType": "HOLD",
+          "spaceTicks": 0,
+          "maxRepeats": 0,
+          "name": "",
+          "mcActivatorKey": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.d",
+            "limitKeyName": "key.keyboard.left.control"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "string": "/data get block %lpos%",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 7,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": true,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "activationType": "HOLD",
+          "spaceTicks": 0,
+          "maxRepeats": 0,
+          "name": "",
+          "mcActivatorKey": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.r",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "string": "/data merge block %lpos% {ticksRemaining2: 3, ticksRemaining3: 3, ticksRemaining0: 3, ticksRemaining1: 3, ticksRemaining6: 3, ticksRemaining7: 3, ticksRemaining4: 3, ticksRemaining5: 3}",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 7,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": true,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "activationType": "HOLD",
+          "spaceTicks": 0,
+          "maxRepeats": 0,
+          "name": "",
+          "mcActivatorKey": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.h",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "string": "/ct hand vanilla",
+              "delayTicks": 0
+            }
+          ]
         }
       ]
     }
