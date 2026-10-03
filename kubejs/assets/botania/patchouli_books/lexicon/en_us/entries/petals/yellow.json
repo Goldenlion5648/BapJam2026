@@ -1,11 +1,23 @@
 {
     "name": "Yellow",
-    "category": "botania:lore",
+    "category": "botania:petals",
     "icon": "botania:yellow_petal",
     "pages": [
         {
             "type": "text",
             "text": "Yellow was flung into the lava of the nether, dissolving in the process. This spread across the nether air of the basalt deltas, $(italics)as if the air wasn't already polluted enough there/$. $(br)However, the sticky magma cubes solidified the yellow vapor back into petals."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Yellow",
+            "item": {
+                "tag": "botania_yellow_items"
+            }
         }
-    ]
+    ],
+    "extra_recipe_mappings": {
+        "botania:yellow_petal": 0,
+        "botania:yellow_petal_block": 0,
+        "botania:yellow_mystical_flower": 0
+    }
 }

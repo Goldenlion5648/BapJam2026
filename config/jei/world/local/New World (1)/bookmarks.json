@@ -1,3 +1,5 @@
 [
-  {"version":1}
+  {"version":1},
+  {"type":"recipe","value":"botania:pure_daisy#botania:pure_daisy/livingrock#item_stack\u0026botania:livingrock"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:manasteel_ingot\"}"}
 ]

@@ -1,0 +1,23 @@
+{
+    "name": "Gray",
+    "category": "botania:petals",
+    "icon": "botania:gray_petal",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Gray was "
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Gray",
+            "item": {
+                "tag": "botania_gray_items"
+            }
+        }
+    ],
+    "extra_recipe_mappings": {
+        "botania:gray_petal": 0,
+        "botania:gray_petal_block": 0,
+        "botania:gray_mystical_flower": 0
+    }
+}

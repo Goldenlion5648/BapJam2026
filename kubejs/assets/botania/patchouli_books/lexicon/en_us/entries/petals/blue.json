@@ -1,0 +1,23 @@
+{
+    "name": "Blue",
+    "category": "botania:petals",
+    "icon": "botania:blue_petal",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Blue was "
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Blue",
+            "item": {
+                "tag": "botania_blue_items"
+            }
+        }
+    ],
+    "extra_recipe_mappings": {
+        "botania:blue_petal": 0,
+        "botania:blue_petal_block": 0,
+        "botania:blue_mystical_flower": 0
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Pure Daisy: Gone Missing",
+    "category": "botania:lore",
+    "icon": "botania:pure_daisy",
+    "priority": true,
+    "sortnum": -10,
+    "pages": [
+        {
+            "type": "text",
+            "text": "It appears that piglins have stolen all of the pure daisies and their recipe! These piglins seem to have a new found interest in magical items. They will only accept manasteel for trade.$(br2)$(italics)What could the piglins have wanted with the pure daisy...?"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Pure Daisy",
+            "item": {
+                "item": "botania:pure_daisy"
+            }
+        }
+    ],
+    "extra_recipe_mappings": {
+        "botania:pure_daisy": 0
+    }
+}

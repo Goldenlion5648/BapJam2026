@@ -1,0 +1,23 @@
+{
+    "name": "White",
+    "category": "botania:petals",
+    "icon": "botania:white_petal",
+    "pages": [
+        {
+            "type": "text",
+            "text": "White was "
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "White",
+            "item": {
+                "tag": "botania_white_items"
+            }
+        }
+    ],
+    "extra_recipe_mappings": {
+        "botania:white_petal": 0,
+        "botania:white_petal_block": 0,
+        "botania:white_mystical_flower": 0
+    }
+}

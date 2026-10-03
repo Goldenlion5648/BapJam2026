@@ -1,0 +1,23 @@
+{
+    "name": "Lime",
+    "category": "botania:petals",
+    "icon": "botania:lime_petal",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Lime was "
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Lime",
+            "item": {
+                "tag": "botania_lime_items"
+            }
+        }
+    ],
+    "extra_recipe_mappings": {
+        "botania:lime_petal": 0,
+        "botania:lime_petal_block": 0,
+        "botania:lime_mystical_flower": 0
+    }
+}

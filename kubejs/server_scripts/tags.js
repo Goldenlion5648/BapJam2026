@@ -21,13 +21,42 @@ ServerEvents.tags("block", event => {
 })
 
 ServerEvents.tags("item", event => {
+    event.add("botania_evolved:b_side_soil", 'minecraft:warped_nylium')
+    event.add("botania_evolved:b_side_soil", 'minecraft:crimson_nylium')
     // event.remove('forge:cobblestone', 'minecraft:mossy_cobblestone')
     // console.log(botania_mushrooms.itemIds);
+    var colors = [
+        "black",
+        "red",
+        "green",
+        "brown",
+        "blue",
+        "purple",
+        "cyan",
+        "light_gray",
+        "gray",
+        "pink",
+        "lime",
+        "yellow",
+        "light_blue",
+        "magenta",
+        "orange",
+        "white",
+    ]
     
     const botania_mushrooms = Ingredient.of("#botania:shimmering_mushrooms")
     for (let item of botania_mushrooms.itemIds) {
-        event.removeAllTagsFrom(item)
+        event.removeAllTagsFrom([item])
     }
+    for (let color of colors) {
+        var item_names = [
+            `botania:${color}_petal_block`, 
+            `botania:${color}_petal`, 
+            `botania:${color}_mystical_flower`
+        ]
+        event.add(`botania_${color}_items`, item_names)
+    }
+    
 })
 
 ServerEvents.commandRegistry(event => {

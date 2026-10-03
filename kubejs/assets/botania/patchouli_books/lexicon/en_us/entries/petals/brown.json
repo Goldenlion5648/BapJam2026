@@ -1,0 +1,23 @@
+{
+    "name": "Brown",
+    "category": "botania:petals",
+    "icon": "botania:brown_petal",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Brown was "
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Brown",
+            "item": {
+                "tag": "botania_brown_items"
+            }
+        }
+    ],
+    "extra_recipe_mappings": {
+        "botania:brown_petal": 0,
+        "botania:brown_petal_block": 0,
+        "botania:brown_mystical_flower": 0
+    }
+}

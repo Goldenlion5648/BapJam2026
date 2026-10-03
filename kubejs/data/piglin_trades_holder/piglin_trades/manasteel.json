@@ -1,0 +1,5 @@
+{
+  "item": "botania:manasteel_ingot",
+  "loot_table": "piglin_trades_holder:gameplay/piglin_bartering/manasteel",
+  "priority": 0
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Purple",
+    "category": "botania:petals",
+    "icon": "botania:purple_petal",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Purple was "
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Purple",
+            "item": {
+                "tag": "botania_purple_items"
+            }
+        }
+    ],
+    "extra_recipe_mappings": {
+        "botania:purple_petal": 0,
+        "botania:purple_petal_block": 0,
+        "botania:purple_mystical_flower": 0
+    }
+}

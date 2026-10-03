@@ -3,6 +3,9 @@
     "category": "botania:lore",
     "icon": "botania:hydroangeas",
     "priority": true,
+    "extra_recipe_mappings": {
+        "botania:hydroangeas": 0
+    },
     "sortnum": -10,
     "pages": [
         {

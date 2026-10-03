@@ -1,0 +1,23 @@
+{
+    "name": "Magenta",
+    "category": "botania:petals",
+    "icon": "botania:magenta_petal",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Magenta was "
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Magenta",
+            "item": {
+                "tag": "botania_magenta_items"
+            }
+        }
+    ],
+    "extra_recipe_mappings": {
+        "botania:magenta_petal": 0,
+        "botania:magenta_petal_block": 0,
+        "botania:magenta_mystical_flower": 0
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Green",
+    "category": "botania:petals",
+    "icon": "botania:green_petal",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Green was "
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Green",
+            "item": {
+                "tag": "botania_green_items"
+            }
+        }
+    ],
+    "extra_recipe_mappings": {
+        "botania:green_petal": 0,
+        "botania:green_petal_block": 0,
+        "botania:green_mystical_flower": 0
+    }
+}

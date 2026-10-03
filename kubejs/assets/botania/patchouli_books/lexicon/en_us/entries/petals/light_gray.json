@@ -1,0 +1,24 @@
+{
+    "name": "Light Gray",
+    "category": "botania:petals",
+    "icon": "botania:light_gray_petal",
+    "sortnum": -10,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Light Gray and Black stuck together on the overworld surface. With all the new space available, their patches are much larger than normal."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Light_Gray",
+            "item": {
+                "tag": "botania_light_gray_items"
+            }
+        }
+    ],
+    "extra_recipe_mappings": {
+        "botania:light_gray_petal": 0,
+        "botania:light_gray_petal_block": 0,
+        "botania:light_gray_mystical_flower": 0
+    }
+}

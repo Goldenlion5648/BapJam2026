@@ -1,14 +1,14 @@
 {
   "type": "minecraft:random_patch",
   "config": {
-    "tries": 5,
-    "xz_spread": 8,
+    "tries": 500,
+    "xz_spread": 12,
     "y_spread": 4,
     "feature": {
       "feature": {
         "type": "botania:mystical_flower",
         "config": {
-          "tall_chance": 0.25,
+          "tall_chance": 0.4,
           "to_place": {
             "type": "minecraft:simple_state_provider",
             "state": {

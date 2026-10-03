@@ -1,5 +1,6 @@
 {
   "item": "minecraft:cobblestone",
-  "loot_table": "cobblestone_trade:gameplay/piglin_bartering/cobblestone",
+  "loot_table": "piglin_trades_holder:gameplay/piglin_bartering/cobblestone",
+  "enabled" : false,
   "priority": 0
 }

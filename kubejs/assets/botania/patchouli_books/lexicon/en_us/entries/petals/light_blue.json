@@ -1,0 +1,23 @@
+{
+    "name": "Light Blue",
+    "category": "botania:petals",
+    "icon": "botania:light_blue_petal",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Light Blue was "
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Light_Blue",
+            "item": {
+                "tag": "botania_light_blue_items"
+            }
+        }
+    ],
+    "extra_recipe_mappings": {
+        "botania:light_blue_petal": 0,
+        "botania:light_blue_petal_block": 0,
+        "botania:light_blue_mystical_flower": 0
+    }
+}

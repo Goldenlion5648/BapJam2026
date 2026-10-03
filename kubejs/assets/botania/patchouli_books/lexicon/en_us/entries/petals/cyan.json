@@ -1,0 +1,23 @@
+{
+    "name": "Cyan",
+    "category": "botania:petals",
+    "icon": "botania:cyan_petal",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Cyan was "
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Cyan",
+            "item": {
+                "tag": "botania_cyan_items"
+            }
+        }
+    ],
+    "extra_recipe_mappings": {
+        "botania:cyan_petal": 0,
+        "botania:cyan_petal_block": 0,
+        "botania:cyan_mystical_flower": 0
+    }
+}

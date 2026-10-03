@@ -1,0 +1,23 @@
+{
+    "name": "Orange",
+    "category": "botania:petals",
+    "icon": "botania:orange_petal",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Orange was "
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Orange",
+            "item": {
+                "tag": "botania_orange_items"
+            }
+        }
+    ],
+    "extra_recipe_mappings": {
+        "botania:orange_petal": 0,
+        "botania:orange_petal_block": 0,
+        "botania:orange_mystical_flower": 0
+    }
+}

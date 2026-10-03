@@ -1,0 +1,23 @@
+{
+    "name": "Pink",
+    "category": "botania:petals",
+    "icon": "botania:pink_petal",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Pink was "
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Pink",
+            "item": {
+                "tag": "botania_pink_items"
+            }
+        }
+    ],
+    "extra_recipe_mappings": {
+        "botania:pink_petal": 0,
+        "botania:pink_petal_block": 0,
+        "botania:pink_mystical_flower": 0
+    }
+}
