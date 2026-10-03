@@ -1,3 +1,4 @@
+const { $Tag } = require("java:net/minecraft/nbt");
 
 ServerEvents.tags("block", event => {
     // event.add("botania_evolved:b_side_soil", 'minecraft:warped_nylium')
@@ -44,9 +45,12 @@ ServerEvents.tags("item", event => {
         "white",
     ]
     
-    const botania_mushrooms = Ingredient.of("#botania:shimmering_mushrooms")
-    for (let item of botania_mushrooms.itemIds) {
-        event.removeAllTagsFrom([item])
+    const botania_petals = event.get('botania:petals').getObjectIds()
+    // const botania_mushrooms = Item.of("#botania:shimmering_mushrooms")
+    for (let item of botania_petals) {
+        if (item.path.includes("mushroom")) {
+            event.removeAllTagsFrom([item])
+        }
     }
     for (let color of colors) {
         var item_names = [

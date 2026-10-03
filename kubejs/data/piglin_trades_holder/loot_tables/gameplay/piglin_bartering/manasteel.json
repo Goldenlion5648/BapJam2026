@@ -7,7 +7,7 @@
         {
           "type": "minecraft:item",
           "name": "botania:pure_daisy",
-          "weight": 30
+          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -22,12 +22,12 @@
               }
             }
           ],
-          "weight": 50
+          "weight": 75
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:blaze_powder",
-          "weight": 20
+          "name": "kubejs:secret1",
+          "weight": 5
         }
       ]
     }

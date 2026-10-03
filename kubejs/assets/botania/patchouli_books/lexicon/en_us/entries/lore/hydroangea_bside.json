@@ -2,7 +2,6 @@
     "name": "B-Side: Hydroangea",
     "category": "botania:lore",
     "icon": "botania:hydroangeas",
-    "priority": true,
     "extra_recipe_mappings": {
         "botania:hydroangeas": 0
     },

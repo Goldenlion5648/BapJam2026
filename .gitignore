@@ -1,0 +1,12 @@
+
+.probe/*
+!.probe/probe-settings.json
+!config
+local/*
+logs/*
+mods/*
+saves/*
+screenshots
+resourcepacks
+crash-reports
+ct_dumps

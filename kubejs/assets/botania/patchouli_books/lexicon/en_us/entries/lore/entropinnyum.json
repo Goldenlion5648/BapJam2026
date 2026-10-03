@@ -1,0 +1,22 @@
+{
+    "name": "No TNT?",
+    "category": "botania:lore",
+    "icon": "botania:entropinnyum",
+    "sortnum": -10,
+    "pages": [
+        {
+            "type": "text",
+            "text": "A ceasefire was issued after the super nova. As a result, crafting TNT was outlawed. $(br2)$(italics)Perhaps there is still a source or two.../$"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Narslimmus",
+            "item": {
+                "item": "botania:entropinnyum"
+            }
+        }
+    ],
+    "extra_recipe_mappings": {
+        "botania:entropinnyum": 0
+    }
+}

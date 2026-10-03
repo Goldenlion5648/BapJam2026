@@ -2,7 +2,6 @@
     "name": "Anomoly: B-Side Flowers",
     "category": "botania:lore",
     "icon": "minecraft:crimson_nylium",
-    "priority": true,
     "extra_recipe_mappings": {
         "tag:botania_evolved:b_side_soil": 0
     },

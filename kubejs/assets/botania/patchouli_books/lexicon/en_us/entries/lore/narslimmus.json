@@ -1,0 +1,22 @@
+{
+    "name": "No Slimes?",
+    "category": "botania:lore",
+    "icon": "botania:narslimmus",
+    "sortnum": -10,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The super nova has caused no more slimes to spawn in the overworld. However, a little known fact remains true of the $(item)$(l:generating_flowers/narslimmus)Narslimmus/$: it can consume naturally spawned Magma Cubes. The normal restriction applies that the chunk that the Magma cube spawned had to be a slime chunk. The $(l:tools/slime_bottle)$(item)Slime in a Bottle$(0)$(/l) can help with that in the nether. $(br)Basalt deltas are recommended."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Narslimmus",
+            "item": {
+                "item": "botania:narslimmus"
+            }
+        }
+    ],
+    "extra_recipe_mappings": {
+        "botania:narslimmus": 0
+    }
+}

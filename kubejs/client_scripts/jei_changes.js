@@ -1,3 +1,4 @@
+// priority: 1000
 
 JEIEvents.information(event => {
     console.log("jei information");
@@ -5,8 +6,12 @@ JEIEvents.information(event => {
 })
 
 JEIEvents.removeRecipes(event => {
-    console.log("jei removing");
-    event.remove('botania:pure_daisy', ['botania_evolved:petal_to_tnt'])
+    console.log("global.hidden_pure_daisy_recipes", global.hidden_pure_daisy_recipes);
+    
+    for (const recipe_name of global.hidden_pure_daisy_recipes) {
+        console.log("jei removing", recipe_name);
+        event.remove('botania:pure_daisy', [recipe_name])
+    }
 })
 
 JEIEvents.hideItems(event => {
@@ -18,5 +23,6 @@ JEIEvents.hideItems(event => {
 
 ItemEvents.tooltip(event => {
     console.log("jei tooltip");
-    event.add("minecraft:tnt", ["This recipe has been lost", "to time..."])
+    event.add("kubejs:secret1", Text.lightPurple("Right click to read..."))
+
 })

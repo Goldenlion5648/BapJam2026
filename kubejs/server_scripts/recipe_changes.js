@@ -30,17 +30,34 @@ ServerEvents.recipes(event => {
     // event.shapeless('botania:red_petal', ['botania:red_mushroom'])
     event.remove({ output: "minecraft:tnt" })
     event.remove({ output: "botania:fertilizer" })
-    event.custom({
-        "type": "botania:pure_daisy",
-        "input": {
-            "type": "block",
-            "block": "botania:red_petal_block"
-        },
-        "output": {
-            "name": "minecraft:air"
-        },
-        "success_function": "botania_evolved:prime_tnt"
-    }).id("botania_evolved:petal_to_tnt")
+
+    global.hidden_pure_daisy_recipes = []
+    const pure_daisy_with_function = (input, output, mc_func, is_hidden) => {
+        if (is_hidden === undefined) {
+            is_hidden = false
+        }
+
+        const input_name = input.split(":")[1]
+        const output_name = output.split(":")[1]
+        const mc_func_name = mc_func.split(":")[1]
+
+        const recipe_name = `botania_evolved:${input_name}_${output_name}_${mc_func_name}`
+        event.custom({
+            "type": "botania:pure_daisy",
+            "input": {
+                "type": "block",
+                "block": input
+            },
+            "output": {
+                "name": output
+            },
+            "success_function": mc_func
+        }).id(recipe_name)
+        if (is_hidden) {
+            global.hidden_pure_daisy_recipes.push(recipe_name)
+        }
+    }
+    
 
     event.remove({ id: /botania:mushroom_\d\d?/ })
     event.remove({ output: "botania:mana_powder" })
@@ -99,37 +116,25 @@ ServerEvents.recipes(event => {
 
     event.remove({id: /botania:petal_.+_double/})
     event.remove({id: "botania:petal_apothecary/jaded_amaranthus"})
+
     event.shaped("minecraft:obsidian", ["XX","XX"], {
         X : "botania:black_petal"
     })
+    event.shaped("2x botania:purple_petal", ["XX","X "], {
+        X : "minecraft:amethyst_shard"
+    })
     event.remove({id: "botania:petal_apothecary/pure_daisy"})
     event.shapeless("4x botania:white_petal", ["botania:pure_daisy"])
+    pure_daisy_with_function("botania:red_petal_block", "minecraft:air", "botania_evolved:prime_tnt", true)
+    pure_daisy_with_function("botania:purple_petal_block", "minecraft:air", "botania_evolved:spawn_shulker", true)
+
+    
 
     // event.recipes.botania.pure_daisy()
     console.log('Hello! The recipe event has ended!')
 })
 
 
-BlockEvents.rightClicked(event => {
-    const { player, server, block, item } = event
-    var level = block.level
-    // server.runCommand(`tellraw ${player.username} "using on ${block.getTags()}"`);
-    console.log("block", block);
-    console.log("hasTag", block.hasTag("minecraft:dirt"));
-    
-    if (item === "kubejs:fertilizer" && block.hasTag("minecraft:dirt")) {
-        // server.runCommand(`tellraw ${player.username} "using2"`);
-        const block_pos = block.getPos()
-        for (let i = 0; i < 4; i++) {
-            var x_offset = Math.round(Math.random() * 7) - 3
-            var z_offset = Math.round(Math.random() * 7) - 3
-            var new_flower_pos = new BlockPos(block_pos.x + x_offset, block_pos.y + 1, block_pos.z + z_offset)
-            if (level.getBlock(new_flower_pos).down.hasTag("minecraft:dirt") && level.getBlock(new_flower_pos) == "minecraft:air") {
-                level.getBlock(new_flower_pos).set("botania:white_mystical_flower")
-            }
-        }
-        event.item.count--
-    }
-})
+
 
 
