@@ -1,0 +1,17 @@
+{
+    "name": "The Event",
+    "category": "botania:lore",
+    "icon": "botania:twig_wand",
+    "priority": true,
+    "sortnum": -100,
+    "pages": [
+        {
+            "type": "text",
+            "text": "After a decade of peace, no notable flowers had joined the Botanist Flora. Then, one day, a space time super nova struck the realm of Botanists!$(br2)The mystical flowers that dominated the overworld surface have been scattered elsewhere. Some of them even transformed into a different form of themselves! Others have $(bold)Evolved/$."
+        },
+        {
+            "type": "text",
+            "text": "Other anomilies that have resulted from the super nova have been documented in other entries."
+        }
+    ]
+}

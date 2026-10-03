@@ -28,7 +28,6 @@ ServerEvents.tags("item", event => {
     for (let item of botania_mushrooms.itemIds) {
         event.removeAllTagsFrom(item)
     }
-
 })
 
 ServerEvents.commandRegistry(event => {

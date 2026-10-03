@@ -1,0 +1,11 @@
+{
+    "name": "Green",
+    "category": "botania:lore",
+    "icon": "botania:green_petal",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Green was "
+        }
+    ]
+}

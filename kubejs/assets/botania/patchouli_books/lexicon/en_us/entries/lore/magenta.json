@@ -1,0 +1,11 @@
+{
+    "name": "Magenta",
+    "category": "botania:lore",
+    "icon": "botania:magenta_petal",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Magenta was "
+        }
+    ]
+}

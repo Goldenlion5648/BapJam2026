@@ -15,5 +15,6 @@
   {"type":"item_stack","value":"{Count:1b,id:\"minecraft:bone_meal\"}"},
   {"type":"item_stack","value":"{Count:1b,id:\"botania:purple_mystical_flower\"}"},
   {"type":"item_stack","value":"{Count:1b,id:\"botania:red_mushroom\"}"},
-  {"type":"item_stack","value":"{Count:1b,id:\"botania:red_petal\"}"}
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:red_petal\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:lexicon\",tag:{\"botania:elven_unlock\":1b}}"}
 ]

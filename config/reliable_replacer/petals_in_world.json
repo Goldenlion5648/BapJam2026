@@ -1,0 +1,14 @@
+[
+  {
+    "inputs": [
+      "minecraft:shroomlight"
+    ],
+    "output": "botania:red_petal_block",
+    "retrogen" : true,
+    "player_blocks": true,
+    "biomes" : [
+        "minecraft:crimson_forest"
+    ],
+    "probability": 0.2
+  }
+]

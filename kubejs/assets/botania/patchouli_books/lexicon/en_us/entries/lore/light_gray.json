@@ -1,0 +1,12 @@
+{
+    "name": "Light Gray",
+    "category": "botania:lore",
+    "icon": "botania:light_gray_petal",
+    "sortnum": -10,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Light Gray and Black and  stuck together on the overworld surface. With all the space new space available, their patches are larger than normal"
+        }
+    ]
+}

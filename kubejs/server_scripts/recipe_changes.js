@@ -24,9 +24,10 @@ ServerEvents.recipes(event => {
             }
         ]
     })
-    event.recipes.botania.mana_infusion("botania:red_mushroom", "minecraft:crimson_fungus", 800)
-    event.shapeless('botania:red_petal', ['botania:red_mushroom'])
-    event.remove({ id: "minecraft:tnt"})
+    // event.recipes.botania.mana_infusion("botania:red_mushroom", "minecraft:crimson_fungus", 800)
+    // event.shapeless('botania:red_petal', ['botania:red_mushroom'])
+    event.remove({ output: "minecraft:tnt" })
+    event.remove({ output: "botania:fertilizer" })
     event.custom({
         "type": "botania:pure_daisy",
         "input": {
@@ -37,11 +38,24 @@ ServerEvents.recipes(event => {
             "name": "minecraft:air"
         },
         "success_function": "botania_evolved:prime_tnt"
-    })
-    
-    event.remove({ id: /botania:mushroom_\d\d?/})
-    event.remove({ output: "botania:mana_powder"})
-    event.replaceInput({ type: "botania:runic_altar"}, "minecraft:sugar_cane", "minecraft:kelp")
+    }).id("botania_evolved:petal_to_tnt")
+
+    event.remove({ id: /botania:mushroom_\d\d?/ })
+    event.remove({ output: "botania:mana_powder" })
+    event.replaceInput({ type: "botania:runic_altar" }, "minecraft:sugar_cane", "minecraft:kelp")
+    event.remove({ id: "botania:runic_altar/spring" })
+    event.custom({ 
+        "type": "botania:runic_altar", 
+        "ingredients": [
+            { "item": "botania:rune_water" }, 
+            { "item": "botania:rune_fire" }, 
+            { "tag": "minecraft:saplings" }, 
+            { "tag": "minecraft:saplings" }, 
+            { "tag": "minecraft:saplings" }, 
+            { "item": "minecraft:wheat" }
+        ], 
+        "mana": 8000, 
+        "output": { "item": "botania:rune_spring" } })
     // event.recipes.botania.pure_daisy()
     console.log('Hello! The recipe event has fired!')
 })

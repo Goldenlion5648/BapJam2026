@@ -164,6 +164,37 @@
               "delayTicks": 0
             }
           ]
+        },
+        {
+          "version": 7,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": true,
+          "conflictStrategy": "VETO",
+          "sendMode": "TYPE",
+          "activationType": "HOLD",
+          "spaceTicks": 0,
+          "maxRepeats": 0,
+          "name": "",
+          "mcActivatorKey": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.e",
+            "limitKeyName": "key.keyboard.left.alt"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "string": "/data get entity",
+              "delayTicks": 0
+            }
+          ]
         }
       ]
     }

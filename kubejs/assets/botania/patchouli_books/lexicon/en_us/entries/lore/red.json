@@ -1,0 +1,11 @@
+{
+    "name": "Red",
+    "category": "botania:lore",
+    "icon": "botania:red_petal",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Red was banished to the nether for playing one too many tricks that went too far. It hides in block form trying to blend in in the crimson forest.$(br2)It continues to play tricks by replacing any shroomlight placed in the crimson forest with itself. It only plays the trick some of the time."
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Lime",
+    "category": "botania:lore",
+    "icon": "botania:lime_petal",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Lime was "
+        }
+    ]
+}

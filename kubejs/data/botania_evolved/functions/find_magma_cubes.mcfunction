@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:magma_cube,tag=!checked] run function botania_evolved:add_to_magma_cube
