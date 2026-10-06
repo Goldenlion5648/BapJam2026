@@ -19,6 +19,14 @@ LootJS.modifiers((event) => {
                 })
         })
     });
+    // event.addBlockLootModifier("botania:cell_block").addLoot("botania:green_petal");
+    const cellWhenSilkTouch = LootEntry.of("botania:cell_block").when((c) =>
+        c.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
+    );
+    event
+        .addBlockLootModifier("botania:cell_block")
+        .removeLoot(Ingredient.all)
+        .addAlternativesLoot(cellWhenSilkTouch, "botania:green_petal");
 
     
 });

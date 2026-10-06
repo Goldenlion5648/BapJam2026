@@ -3,11 +3,15 @@
   "config": {
     "features": [
       {
-        "feature": "botania:gray_mystical_flower_patch",
+        "feature": "botania:light_gray_mystical_flower_patch",
         "placement": []
       },
       {
         "feature": "botania:black_mystical_flower_patch",
+        "placement": []
+      },
+      {
+        "feature": "botania:red_mystical_flower_patch",
         "placement": []
       }
     ]

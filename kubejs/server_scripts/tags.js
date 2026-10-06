@@ -59,6 +59,7 @@ ServerEvents.tags("item", event => {
             `botania:${color}_mystical_flower`
         ]
         event.add(`botania_${color}_items`, item_names)
+        event.add(`botania_petal_blocks`, [item_names[0]])
     }
     
 })

@@ -3,6 +3,7 @@
 JEIEvents.information(event => {
     console.log("jei information");
     event.addItem('minecraft:tnt', ["This recipe has been lost", "to time..."])
+    event.addItem("botania:purple_petal_block", ["Turns into a shulker mob using a pure daisy"])
 })
 
 JEIEvents.removeRecipes(event => {
@@ -15,14 +16,19 @@ JEIEvents.removeRecipes(event => {
 })
 
 JEIEvents.hideItems(event => {
-    console.log("hiding fertilizer");
+    // console.log("hiding fertilizer");
 
-    event.hide("botania:fertilizer")
+    // event.hide("botania:fertilizer")
+})
+
+ClientEvents.lang("en_us", event => {
+    // event.renameItem()
 })
 
 
 ItemEvents.tooltip(event => {
     console.log("jei tooltip");
     event.add("kubejs:secret1", Text.lightPurple("Right click to read..."))
+    event.add("botania:fertilizer", Text.lightPurple("==The Goal=="))
 
 })

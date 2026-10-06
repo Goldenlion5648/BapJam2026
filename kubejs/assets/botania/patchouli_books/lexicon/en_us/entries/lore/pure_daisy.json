@@ -6,11 +6,12 @@
     "pages": [
         {
             "type": "text",
-            "text": "It appears that piglins have stolen all of the pure daisies and their recipe! These piglins seem to have a new found interest in magical items. They will only accept manasteel for trade.$(br2)$(italics)What could the piglins have wanted with the pure daisy...?"
+            "text": "It appears that piglins have stolen all of the pure daisies and their recipe! These piglins seem to have a new found interest in magical items. They will only accept manasteel for trade.$(br2)Livingwood and livingrock can be found with hollow logs and calcite respectively"
         },
         {
             "type": "patchouli:spotlight",
             "title": "Pure Daisy",
+            "text" : "$(italics)What could the piglins have wanted with the pure daisy...?",
             "item": {
                 "item": "botania:pure_daisy"
             }

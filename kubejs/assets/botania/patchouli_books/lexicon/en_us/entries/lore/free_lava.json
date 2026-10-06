@@ -1,0 +1,21 @@
+{
+    "name": "Free Lava",
+    "category": "botania:lore",
+    "icon": "botania:thermalily",
+    "sortnum": -10,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The super nova has caused lava to become infinite everywhere, similar to water source blocks. It's like Christmas for the Thermalily."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": {
+                "item": "botania:thermalily"
+            }
+        }
+    ],
+    "extra_recipe_mappings": {
+        "botania:thermalily": 0
+    }
+}

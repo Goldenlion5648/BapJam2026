@@ -195,6 +195,68 @@
               "delayTicks": 0
             }
           ]
+        },
+        {
+          "version": 7,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": true,
+          "conflictStrategy": "VETO",
+          "sendMode": "SEND",
+          "activationType": "HOLD",
+          "spaceTicks": 0,
+          "maxRepeats": 0,
+          "name": "",
+          "mcActivatorKey": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.k",
+            "limitKeyName": "key.keyboard.left.control"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "string": "/kubejs reload server_scripts",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 7,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": true,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "activationType": "HOLD",
+          "spaceTicks": 0,
+          "maxRepeats": 0,
+          "name": "",
+          "mcActivatorKey": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.t",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "string": "/tp @p ~1000 ~ ~",
+              "delayTicks": 0
+            }
+          ]
         }
       ]
     }

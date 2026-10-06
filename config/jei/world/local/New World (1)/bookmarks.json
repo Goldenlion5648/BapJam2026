@@ -1,5 +1,18 @@
 [
   {"version":1},
   {"type":"recipe","value":"botania:pure_daisy#botania:pure_daisy/livingrock#item_stack\u0026botania:livingrock"},
-  {"type":"item_stack","value":"{Count:1b,id:\"botania:manasteel_ingot\"}"}
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:manasteel_ingot\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:daybloom_motif\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:magenta_mushroom\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"kubejs:secret1\"}"},
+  {"type":"recipe","value":"botania:petals#botania:petal_apothecary/munchdew#item_stack\u0026botania:munchdew"},
+  {"type":"recipe","value":"minecraft:crafting#minecraft:jei.suspicious.stew.block.botania.blue_mystical_flower#item_stack\u0026minecraft:suspicious_stew:[16.80]"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:brown_petal\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:orange_petal\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:lime_petal\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:green_petal\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:magenta_petal\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:blue_petal\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:cyan_petal\"}"},
+  {"type":"recipe","value":"minecraft:crafting#botania:alfheim_portal#item_stack\u0026botania:alfheim_portal"}
 ]

@@ -1,0 +1,11 @@
+[
+  {
+    "inputs": [
+      "#quark:hollow_logs"
+    ],
+    "output": "botania:livingwood_log",
+    "retrogen" : false,
+    "player_blocks": false,
+    "probability": 0.4
+  }
+]

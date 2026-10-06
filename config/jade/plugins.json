@@ -51,10 +51,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "compactmachines": {
-    "machine": true,
-    "tunnel": true
-  },
   "mana_jade": {
     "mana_pool_storage": true,
     "runic_altar_recipe_progress": true,
@@ -72,6 +68,9 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
+  },
+  "waystones": {
+    "waystone": true
   },
   "balm": {
     "jade": true

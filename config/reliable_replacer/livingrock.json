@@ -1,0 +1,11 @@
+[
+  {
+    "inputs": [
+      "minecraft:calcite"
+    ],
+    "output": "botania:livingrock",
+    "retrogen" : false,
+    "player_blocks": false,
+    "probability": 0.1
+  }
+]

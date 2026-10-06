@@ -9,6 +9,8 @@ ServerEvents.loaded(event => {
     event.server.runCommandSilent('gamerule doTraderSpawning false')
     event.server.runCommandSilent('gamerule doFireTick false')
     event.server.runCommandSilent('gamerule mobGriefing false')
+    event.server.runCommandSilent('gamerule keepInventory true')
+    event.server.runCommandSilent('gamerule lavaSourceConversion true')
 
     event.server.persistentData.first_load_done = true
 })

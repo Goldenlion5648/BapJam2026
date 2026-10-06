@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "Blue was "
+            "text": "Blue always liked beautiful, shiny objects. Almost obsessed. Now they have been sealed inside of manasteel, one of their most treasured shiny objects.$(br2)$(italics)Adding more mana to the already mana-filled manasteel breaks the seal."
         },
         {
             "type": "patchouli:spotlight",

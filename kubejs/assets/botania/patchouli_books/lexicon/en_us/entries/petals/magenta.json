@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "Magenta was "
+            "text": "Magenta was found by witches. The witches keep the petals for good luck, and have chance to drop one when their health is below half, and they take more than a heart of damage."
         },
         {
             "type": "patchouli:spotlight",

@@ -1,0 +1,15 @@
+[
+  {"version":1},
+  {"type":"recipe","value":"minecraft:crafting#botania:petal_black#item_stack\u0026botania:black_petal"},
+  {"type":"recipe","value":"minecraft:crafting#botania:petal_gray#item_stack\u0026botania:gray_petal"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:green_petal\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:brown_petal\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:cell_block\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:horn_grass\"}"},
+  {"type":"recipe","value":"minecraft:crafting#minecraft:iron_bars#item_stack\u0026minecraft:iron_bars"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:magenta_petal\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:lime_petal\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:lime_mystical_flower\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"botania:livingwood_log\"}"},
+  {"type":"recipe","value":"minecraft:crafting#quark:tweaks/crafting/slab_to_block#item_stack\u0026minecraft:calcite"}
+]

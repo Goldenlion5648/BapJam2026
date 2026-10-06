@@ -1,0 +1,11 @@
+[
+  {
+    "inputs": [
+      "#minecraft:leaves"
+    ],
+    "output": "botania:light_blue_petal_block",
+    "retrogen" : true,
+    "player_blocks": true,
+    "min_y": "300"
+  }
+]

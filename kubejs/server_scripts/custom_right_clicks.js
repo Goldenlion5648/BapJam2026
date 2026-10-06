@@ -13,7 +13,9 @@ BlockEvents.rightClicked(event => {
             var z_offset = Math.round(Math.random() * 7) - 3
             var new_flower_pos = new BlockPos(block_pos.x + x_offset, block_pos.y + 1, block_pos.z + z_offset)
             if (level.getBlock(new_flower_pos).down.hasTag("minecraft:dirt") && level.getBlock(new_flower_pos) == "minecraft:air") {
-                level.getBlock(new_flower_pos).set("botania:white_mystical_flower")
+                var options = ['botania:black_mystical_flower', 'botania:gray_mystical_flower']
+                var chosen = options[Math.floor(Math.random() * options.length)]
+                level.getBlock(new_flower_pos).set(chosen)
             }
         }
         event.item.count--

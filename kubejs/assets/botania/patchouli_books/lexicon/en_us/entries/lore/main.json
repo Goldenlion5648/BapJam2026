@@ -7,11 +7,11 @@
     "pages": [
         {
             "type": "text",
-            "text": "After a decade of peace, no notable flowers had joined the Botanist Flora. Then, one day, a space time super nova struck the realm of Botanists!$(br2)The mystical flowers that dominated the overworld surface have been scattered elsewhere. Some of them even transformed into a different form of themselves! Others have $(bold)Evolved/$."
+            "text": "After a decade of peace, no notable flowers had joined the Botanist Flora. Then, one day, a space time super nova struck the realm of Botanists!$(br2)The mystical flowers that dominated the overworld surface have been $(l:botania:petals)scattered elsewhere/$. Some of them even transformed into a different form of themselves! Others have $(bold)Evolved/$, gaining new powers."
         },
         {
             "type": "text",
-            "text": "Many anomilies that have resulted from the super nova have been documented in other entries."
+            "text": "Many anomilies that have resulted from the super nova have been documented in other entries. $(br2)See if you can reunite the mystical flowers of all colors! $(br2)$(bold)Bonus:/$ See if you can automate all of them!"
         }
     ]
 }
