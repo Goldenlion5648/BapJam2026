@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "Yellow was flung into the lava of the nether, dissolving in the process. This spread across the nether air of the basalt deltas, $(italics)as if the air wasn't already polluted enough there/$. $(br)However, the sticky magma cubes solidified the yellow vapor back into petals."
+            "text": "Yellow was flung into the lava of the nether, dissolving in the process. This spread across the nether air of the basalt deltas, $(italics)as if the air wasn't already polluted enough there/$. $(br2)However, the sticky magma cubes solidified the yellow vapor back into petals."
         },
         {
             "type": "patchouli:spotlight",

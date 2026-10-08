@@ -1,0 +1,15 @@
+{
+    "name": "No End Access",
+    "category": "botania:lore",
+    "icon": "minecraft:ender_eye",
+    "sortnum": -10,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The super nova rewrote history, causing strongholds to never be built.$(br2)There is no way to access The End."
+        }
+    ],
+    "extra_recipe_mappings": {
+        "botania:narslimmus": 0
+    }
+}

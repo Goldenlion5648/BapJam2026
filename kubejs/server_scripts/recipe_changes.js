@@ -32,6 +32,17 @@ ServerEvents.recipes(event => {
     // event.shapeless('botania:red_petal', ['botania:red_mushroom'])
     event.remove({ output: "minecraft:tnt" })
     event.remove({ output: "botania:fertilizer" })
+    event.shapeless("3x kubejs:fertilizer", ["minecraft:bone_meal", "botania:white_petal", "botania:white_petal", "botania:cyan_petal", "botania:cyan_petal"])
+    event.shapeless("3x botania:ender_air_bottle", ["minecraft:glass_bottle", "botania:black_petal", "botania:black_petal"])
+    
+    event.shaped("minecraft:elytra", ["GWG", "L L", "F F"], {
+        W : "botania:livingwood_twig",
+        G : "botania:gray_petal",
+        L : "botania:blue_petal",
+        F : "minecraft:feather",
+    })
+
+    event.recipes.botania.pure_daisy("minecraft:chorus_flower", "botania:white_petal_block", 80)
 
     global.hidden_pure_daisy_recipes = []
     const pure_daisy_with_function = (input, output, mc_func, is_hidden) => {
@@ -64,6 +75,14 @@ ServerEvents.recipes(event => {
     event.remove({ id: /botania:mushroom_\d\d?/ })
     event.remove({ output: "botania:mana_powder" })
     event.replaceInput({ type: "botania:runic_altar" }, "minecraft:sugar_cane", "minecraft:kelp")
+    event.replaceInput({ type: "botania:runic_altar" }, "botania:mana_diamond", "minecraft:amethyst_shard")
+    // event.forEachRecipe({ type: "botania:runic_altar" }, recipe => {
+    //     console.log(recipe.json);
+        
+    //     // recipe.json.add("ingredients", {
+    //     //     item : 
+    //     // })
+    // })
     event.replaceInput({ output: "botania:hydroangeas" }, "botania:blue_petal", "botania:light_blue_petal")
     // event.remove({ id: "botania:runic_altar/spring" })
     // event.custom({
@@ -168,6 +187,7 @@ ServerEvents.recipes(event => {
 
     pure_daisy_with_function("botania:red_petal_block", "minecraft:air", "botania_evolved:prime_tnt", true)
     pure_daisy_with_function("botania:purple_petal_block", "minecraft:air", "botania_evolved:spawn_shulker", false)
+    pure_daisy_with_function("botania:black_petal_block", "minecraft:air", "botania_evolved:spawn_enderman", false)
 
     event.remove({ output: "botania:cell_block" })
     event.remove({ output: "botania:thermalily" })
@@ -177,6 +197,7 @@ ServerEvents.recipes(event => {
     event.recipes.botania.mana_infusion("quark:iron_rod", "minecraft:iron_bars", 10000)
     event.recipes.botania.mana_infusion("botania:blue_petal", "botania:manasteel_ingot", 1000)
     event.recipes.botania.mana_infusion("botania:brown_petal", "#minecraft:logs", 1000)
+    event.recipes.botania.mana_infusion("minecraft:cactus", "botania:cell_block", 1000)
     
     event.custom({
         "type": "botania:petal_apothecary",
